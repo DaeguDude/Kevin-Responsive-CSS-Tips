@@ -1,0 +1,97 @@
+/* Very first section tryna set the min height of 660px */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  padding: 1em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Reusable Classes */
+
+.container {
+  max-width: 1128px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 4em 0;
+}
+
+.section-title {
+  color: #f3eed9;
+}
+
+.section-title--dark {
+  color: #824936;
+}
+
+.intro {
+  min-height: 660px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #f3eed9;
+}
+
+.intro__text {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.125rem;
+}
+
+.intro__title {
+  color: #824936;
+}
+
+.section-three {
+  background: #222c2a;
+  color: #fff;
+}
+
+.section-four {
+  background: #824936;
+  color: #fff;
+}
+
+@media screen and (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 4em;
+  }
+
+  .intro__title {
+    font-size: 3.75rem;
+  }
+}

@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Playfair Display", serif; */
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.75rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-size: 1.31rem;
+}
+
+img {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Reusable Classes */
+
+.container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+  align-self: flex-start;
+}
+
+.col + .col {
+  margin-left: 3rem;
+}
+
+/* Hero */
+.hero {
+  background: #f3eed9;
+  min-height: 660px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Could be replaced with class name */
+.hero p {
+  text-transform: uppercase;
+  letter-spacing: 0.7rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.hero__title {
+  color: #824936;
+}
+
+/* second section */
+
+.second-section {
+}
+
+.second-section .container {
+  padding-bottom: 6rem;
+}
+
+.second-section__title {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #824936;
+}
+
+/* third section */
+
+.third-section {
+  background: #000;
+  color: #fff;
+}
+
+.third-section__title {
+  margin-bottom: 1.5rem;
+}
+
+/* fourth section */
+
+.fourth-section {
+  background: #824936;
+  color: #fff;
+}
+
+.fourth-section__title {
+  margin-bottom: 1.5rem;
+}
